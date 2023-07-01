@@ -2,7 +2,7 @@ import './App.css'
 import { useState } from 'react'
 
 function App() {
-  const [name, setName] = useState('_')
+  const [name, setName] = useState('')
   const [number, setNumber] = useState(1)
 
   console.log(name)
